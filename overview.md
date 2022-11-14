@@ -10,7 +10,7 @@ In this exercise, you will explore on Microsoft Defender for Cloud, configuring 
 
 ## **Exercise 2: Azure Web Application Firewall on Application Gateway**
 
-In this exercise, you will deploy an Azure Firewall and Application Gateway with WAF V2 then you will publish an application through it. You'll also test the application for security and perform a sample attack. Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It's a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability. Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications.
+In this exercise, you will deploy an Azure Firewall and Application Gateway with WAF V2 then you will publish an application through it. You'll also test the application for security and perform a sample attack. Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It's a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability. Azure Application Gateway is a web traffic load balancer that enables you to manage traffic to your web applications. Azure Web Application Firewall provides centralized protection of your web applications from common exploits and vulnerabilities. 
 
 ## **Exercise 3: Azure Firewall Premium**
 
