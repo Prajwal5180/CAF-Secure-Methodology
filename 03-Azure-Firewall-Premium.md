@@ -68,12 +68,26 @@ In this task, you will test IDPS for HTTP traffic
  
      ![](images1/firewall.png)
  
- 5. On the **AzureFirewall** page, select **Logs (1)** under the Monitoring tab and click on **Run (2)** under the **Network rule log data** tab.
+ 5. On the **AzureFirewall** page, select **Logs (1)** under the Monitoring tab and click on **Load to editor (2)** under the **Network rule log data** tab.
  
-    ![](images1/networkrulelogdata.png)
-
+    ![](images1/loadtoeditor1.png)
+ 
+ 1. On the query editor workspace, replace the existing query and past the below-mentioned query **(1)** then click on **Run (2)**.
+ 
+    ```bash
+    AzureDiagnostics
+    | where ResourceType == "AZUREFIREWALLS"
+    | where OperationName == "AzureFirewallIDSLog"
+    ```
+ 
+   ![](images1/query.png)
+ 
     > [! NOTE]
     > It can take some time for the data to begin showing in the logs. Give it at least a couple of minutes to allow for the logs to begin showing the data.
+ 
+1. Under the **Results** tab, expand the most recent result **(1)** and observe the **msg_s (2)** row.
+ 
+   ![](images1/result1.png)
  
 6. Now navigate back to firewall policy and under **Settings** select **IDPS**.
  
