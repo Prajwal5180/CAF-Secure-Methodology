@@ -74,13 +74,13 @@ In this task, you will test IDPS for HTTP traffic
  
  1. On the query editor workspace, replace the existing query and past the below-mentioned query **(1)** then click on **Run (2)**.
  
-    ```bash
-    AzureDiagnostics
-    | where ResourceType == "AZUREFIREWALLS"
-    | where OperationName == "AzureFirewallIDSLog"
-    ```
+     ```bash
+     AzureDiagnostics
+     | where ResourceType == "AZUREFIREWALLS"
+     | where OperationName == "AzureFirewallIDSLog"
+     ```
  
-   ![](images1/query.png)
+    ![](images1/run1.png)
  
     > [! NOTE]
     > It can take some time for the data to begin showing in the logs. Give it at least a couple of minutes to allow for the logs to begin showing the data.
