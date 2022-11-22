@@ -118,15 +118,15 @@ In this task, you will onboard the web app -  IIS server to sentinel by configur
     
     ![](images1/firewallroute.png)
  
-1. On the Route table page, select **Routes (1)** under **Settings** and click on **+ Add (2)**.
+1. On the Route table page, select **Routes (1)** under **Settings** and click on **firewallroute (2)**.
  
-    ![](images1/addroute.png)
+    ![](images1/routes.png)
    
-1. Under **Add Route** page, update the **Next hope type** from **Virtual appliance** to **Internet (1)** and click on **Save (2)**.
+1. Under **firewallroute** page, update the **Next hope type** from **Virtual appliance** to **Internet (1)** and click on **Save (2)**.
 
     ![](images1/Nexthopetype.png)
     
-3. In the Azure portal, navigate to your **JumpVM-rg** resource group and select **JumpVM-<inject key="Deployment ID" enableCopy="false"/>**. 
+3. Navigate back to your **JumpVM-rg** resource group and select **JumpVM-<inject key="Deployment ID" enableCopy="false"/>**. 
  
     ![](images1/selectvm.png)
 
