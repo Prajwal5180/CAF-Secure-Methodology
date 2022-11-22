@@ -114,7 +114,19 @@ In this task, you will onboard the Azure subscription to Azure sentinel by comfi
 
 In this task, you will onboard the web app -  IIS server to sentinel by configuring the log Analytics agent.
 
-1. In the Azure portal, navigate to your **JumpVM-rg** resource group and select **JumpVM-<inject key="Deployment ID" enableCopy="false"/>**. 
+1. In the Azure portal, navigate to your **JumpVM-rg** resource group and select the Route Table **firewallroute**. 
+    
+    ![](images1/firewallroute.png)
+ 
+1. On the Route table page, select **Routes (1)** under **Settings** and click on **+ Add (2)**.
+ 
+    ![](images1/addroute.png)
+   
+1. Under **Add Route** page, update the **Next hope type** from **Virtual appliance** to **Internet (1)** and click on **Save (2)**.
+
+    ![](images1/Nexthopetype.png)
+    
+3. In the Azure portal, navigate to your **JumpVM-rg** resource group and select **JumpVM-<inject key="Deployment ID" enableCopy="false"/>**. 
  
     ![](images1/selectvm.png)
 
