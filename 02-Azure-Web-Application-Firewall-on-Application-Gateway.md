@@ -378,6 +378,15 @@ In this task, you will create a storage account, this storage account will be us
  
  In this task, you will login into the Jump VM to configure the Custom rules for firewall policy and will publish the web application within the VM and from the Lab VM to check the application's reachability.
  
+ 1. In the Azure portal, search for **Virtual Machines (1)** and select it from the results **(2)**.
+
+     ![](images1/virtual%20machines.png)
+     
+ 1. On Virtual Machines page, select **JumpVM-<inject key="DeploymentID" enableCopy="false" />**.
+
+     ![](images1/jumpvm.png)
+
+ 
  1. Within the **Jump VM**, type **cmd (1)** in the search bar and right-click on **Command Prompt (2)** then click on **Run as administrator (3)**.
  
       ![](/images1/cmd1.png)
