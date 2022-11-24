@@ -386,7 +386,28 @@ In this task, you will create a storage account, this storage account will be us
 
      ![](images1/jumpvm.png)
 
+1. Click on **Connect (1)** and then select **RDP (2)**.
+
+     ![](images1/conenctrdp.png)
+     
+1. Under **RDP** tab, click on **Downlaod RDP file**.
+
+     ![](images1/downlaod.png)
+     
+1. Open the downlaoded RDP file and click on **Connect**.
+
+    ![](images1/conect.png)
+   
+1. Enter the below given credentials and click on **Ok (3)**
+
+    - User name : Enter **.\demouser (1)**
+    - Password : Enter **<inject key="JumpVM Admin Password" enableCopy="true" /> (2)**
  
+    ![](images1/credentials.png)
+    
+1. Click on **Yes** on the pop-up.
+
+    
  1. Within the **Jump VM**, type **cmd (1)** in the search bar and right-click on **Command Prompt (2)** then click on **Run as administrator (3)**.
  
       ![](/images1/cmd1.png)
