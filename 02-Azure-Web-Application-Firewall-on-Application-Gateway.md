@@ -416,7 +416,7 @@ In this task, you will create a storage account, this storage account will be us
  
       ![](/images/image314.png)
  
- 1. In the Azure portal, search **WAF (1)** and then select **Web Application Firewall policies (WAF) (2)**.
+ 1. Now, navigate back to the **Lab VM**, search **WAF (1)** from the Azure Portal and then select **Web Application Firewall policies (WAF) (2)**.
  
       ![](images/image302.png "select gateway")
  
@@ -441,14 +441,14 @@ In this task, you will create a storage account, this storage account will be us
  
       ![](images/image306.png "select gateway")
  
- 1.  Now, open a new tab in the Jump VM and browse the **IPv4 Address**.
+ 1.  Now, open the browser in the **Jump VM** and browse the **IPv4 Address**.
  
      > **Note**: you will see that your website is Running.
 
  
       ![ss](/images1/0.0.png)
  
- 1. Now, you can paste the **IPv4 Address** into your **Local computer / Personal computer**. You can  observe the **This site can’t be reached** error
+ 1. Now, you can paste the **IPv4 Address** into your **Lab VM**. You can  observe the **This site can’t be reached** error
  
       > **Note**: You will see that your website is Blocked outside the Jump VM
  
