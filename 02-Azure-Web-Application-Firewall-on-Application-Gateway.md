@@ -376,7 +376,7 @@ In this task, you will create a storage account, this storage account will be us
      
 ## **Task 4: Customize WAF rules**
  
- In this task, you will configure the Custom rules for firewall policy and will publish the web application within the VM and from the Local computer to check the application's reachability.
+ In this task, you will login into the Jump VM to configure the Custom rules for firewall policy and will publish the web application within the VM and from the Lab VM to check the application's reachability.
  
  1. Within the **Jump VM**, type **cmd (1)** in the search bar and right-click on **Command Prompt (2)** then click on **Run as administrator (3)**.
  
