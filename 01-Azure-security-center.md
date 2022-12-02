@@ -3,6 +3,7 @@
 
 ### **Overview**
 
+
 Microsoft Defender for Cloud is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all your Azure, on-premises, and multicolored (Amazon AWS and Google GCP) resources. You can find more references about the virtual network here: `https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction`
 
 An Azure Policy definition, created in Azure Policy, is a rule about specific security conditions that you want to be controlled. Built-in definitions include things like controlling what type of resources can be deployed or enforcing the use of tags on all resources.
