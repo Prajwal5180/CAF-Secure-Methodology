@@ -1,7 +1,7 @@
 # **Exercise 1: Azure Security Center/ Microsoft Defender for Cloud**
 
 
-## **Overview**
+### **Overview**
 
 
 Microsoft Defender for Cloud is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all your Azure, on-premises, and multicolored (Amazon AWS and Google GCP) resources. You can find more references about the virtual network here: `https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction`
