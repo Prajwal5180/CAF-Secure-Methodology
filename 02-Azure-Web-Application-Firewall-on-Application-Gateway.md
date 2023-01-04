@@ -182,7 +182,7 @@ In this task, you will create a storage account, this storage account will be us
 
      - Storage account name: Enter **stacc<inject key="Deployment ID" enableCopy="false"/> (3)**
 
-     - Region: Select **East US(4)**
+     - Region: Select **<inject key="Region" /> (4)**
 
      - Performance: Select **Standard**
 
