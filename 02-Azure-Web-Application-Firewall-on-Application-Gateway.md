@@ -12,13 +12,13 @@ In this exercise, you will deploy an Azure Firewall and Application Gateway with
 
 This exercise includes the following tasks:
 
-  - Configure WAF to Protect your web application
+  - Configure WAF to protect your web application
   - Publish your application to the internet with the application gateway
   - Monitor attacks against your web application
   - Customize WAF rules
   - Attack simulation
 
- ## **Task 1: Configure WAF to Protect your web application**
+ ## **Task 1: Configure WAF to protect your web application**
  
  In this task, you will add Virtual Machine as the Backend pool of the Application gateway and also configure the Application Gateway from the firewall policy.
  
@@ -182,7 +182,7 @@ In this task, you will create a storage account, this storage account will be us
 
      - Storage account name: Enter **stacc<inject key="Deployment ID" enableCopy="false"/> (3)**
 
-     - Region: Enter **<inject key="Region" /> (4)**
+     - Region: Select **<inject key="Region" /> (4)**
 
      - Performance: Select **Standard**
 

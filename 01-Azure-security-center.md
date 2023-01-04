@@ -4,7 +4,7 @@
 ### **Overview**
 
 
-Microsoft Defender for Cloud is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all your Azure, on-premises, and multicolored (Amazon AWS and Google GCP) resources. You can find more references about the virtual network here: `https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction`
+Microsoft Defender for Cloud is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all your Azure, on-premises, and multicolored (Amazon AWS and Google GCP) resources. You can find more references about Defender for Cloud here: `https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction`
 
 An Azure Policy definition, created in Azure Policy, is a rule about specific security conditions that you want to be controlled. Built-in definitions include things like controlling what type of resources can be deployed or enforcing the use of tags on all resources.
 
@@ -23,7 +23,7 @@ This exercise includes the following tasks:
 
 In this task, you will explore the features of Microsoft Defender for cloud-like Security posture, Workload Protections, Environment settings 
 
-1. If you have not Signed into the Azure portal already, follow the steps from page 1 of the lab guide to sign in.
+1. If you have not signed into the Azure portal already, follow the steps from page 1 of the lab guide to sign in.
 
 2. Search for **Microsoft Defender for Cloud (1)** in the  Azure portal search bar and then click on **Microsoft Defender for Cloud (2)**.
     
