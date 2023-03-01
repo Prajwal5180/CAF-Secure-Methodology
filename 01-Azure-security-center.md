@@ -95,8 +95,12 @@ In this task, you will explore the security policy and will assign a built-in in
 1. On the **Basics** tab, Click on **Scope[...] (1)** and then select **Subscription (2)** and Resource Group **JumpVM-rg (3)**, then click on **Select (4)**, followed by          clicking on **Next (5)**
 
     ![](images/editing1.png )
-        
-1. Now under the **Parameters** tab, leave everything to default and then click on **Next**.
+
+1. Under the **Advanced** tab, leave everything as default and click on **Next**.
+
+    ![](images1/advanced2.png)
+    
+3. Now under the **Parameters** tab, leave everything to default and then click on **Next**.
 
     ![](images/editing2.png "environment details")
     
