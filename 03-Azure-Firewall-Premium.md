@@ -190,7 +190,7 @@ In this task, you will create an application rule to allow access to sports webs
  
 1. Select **TLS inspection (1)** under the **Settings** tab and enter the below details under the **Key vault** tab:
  
-    - Parent policy : Choose **Enabled (2)
+    - Parent policy : Choose **Enabled (2)**
     - Managed Identity: Select **(New) fw-cert-id-ZrNC4l8WLg97D  (3)** from the drop-down list
     - Key Vault: Select **(New) fw-cert-kv-ZrNC4l8WLg97D (4)** from the drop-down
     - Certificate: Select **(New) fw-cert-ZrNC4l8WLg97D (5)** from the drop-down
