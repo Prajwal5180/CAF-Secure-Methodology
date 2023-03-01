@@ -236,9 +236,9 @@ In this task, you will create a storage account, this storage account will be us
       
 1. On the **Basics** tab of **Create a flow log**, enter the following details:
 
-      - Under **Project details** click on **+ Select NSG**.
+      - Under **Project details** click on **+ Select resource**.
 
-         ![](/images1/selectnsg.png)
+         ![](images1/selectresourcee.png)
          
       - On the **Select network security group** page, select **JumpVM-<inject key="Deployment ID" enableCopy="false"/>-nsg (1)** and click on **Confirm selection (2)**.
 
