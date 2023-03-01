@@ -256,7 +256,7 @@ In this task, you will create a storage account, this storage account will be us
         
 1. Under the **Configuration** tab, check the box to **Enable Traffic Analytics (1)** and select **Review + Create (2)**.
 
-     ![create](/images1/reviewcreate.png)
+     ![create](images1/enabletraffic.png)
         
 1. Review the configuration of the flow log and select **Create**.
 
