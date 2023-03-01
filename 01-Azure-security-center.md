@@ -102,19 +102,19 @@ In this task, you will explore the security policy and will assign a built-in in
     
 3. Now under the **Parameters** tab, leave everything to default and then click on **Next**.
 
-    ![](images/editing2.png "environment details")
+    ![](images1/parameters.png "environment details")
     
-1. Now under the **Remediation** tab, leave everything to default and then click on **Next**.
+1. Now under the **Remediation** tab, uncheck the box next to **Create Managed Identity (1)** and then click on **Next (2)**.
 
-    ![](images/editing3.png "environment details")
+    ![](images1/remediation.png "environment details")
     
 1. Now on the **Non-compliance messages** tab, select all **Policy definitions (1)**, then click on **Review + create (2)**.
 
-    ![](images/editing4.png )
+    ![](images1/noncompailance.png )
     
 1. Now click on **Create**.
 
-    ![](images/editing5.png )
+    ![](images1/r%2Bc.png )
 
 1. Once the Policy is assigned you will see another notification that says **Creating initiative assignment succeeded** as shown below.
 
