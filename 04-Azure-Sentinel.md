@@ -40,29 +40,6 @@ In this task, you will onboard the Azure subscription to Azure sentinel by comfi
 1. If there is no Log Analytic workspace pre-created then click on **+ Create a new workspace**, else continue from step 8.
 
      ![](images/loganalytics.png "log analytics")
-     
-1. On the **Log Analytics workspace** page, provide the information as mentioned below,
-   - Subscription: **Leave it as default (1)**
-   - Resource Group: **JumpVM-rg (2)**.
-   - Name: Enter **log-analytics (3)**.
-   - Region: **East US**
-   - Click on **Tags (5)** to continue.
-
-     ![](images/log1.png "create log analytics")
-     
-1. On the **Tags** tab, leave everything to default and then  click on **Review + create**.
-
-     ![](images/log2.png "create log analytics")
-  
-1. If the validation is passed, then  click on **Create**.
-
-   >**NOTE**: It may take a couple of minutes for the workspace to be created.
-
-     ![](images/log3.png "Passed log analytics")
-      
-1. Once the Log Analytics workspace is added you will see the notification that says **Successfully added Log Analytics workspace**, as shown below.
-
-      ![](images/log4.png "Passed log analytics")
 
 1. Now under **add Microsoft Sentinel to a workspace** page, select **log-analytics** workspace Click on **Add**.
 
