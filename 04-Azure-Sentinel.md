@@ -134,9 +134,9 @@ In this task, you will onboard the web app -  IIS server to sentinel by configur
 
      ![](images/analytics1.png)
 
-1. On the  log analytics workspace page, select **log-analytics (1)**, and under settings, click on **Agents management (2)** after that expand **Log Analytics agent                instructions (3)**, and then click on **Download Windows Agent [64 bit] (4)**. Copy the **Workspace ID (5)** and **Primary key (6)**, then save it to notepad for later use.
+1. On the  log analytics workspace page, select **log-analytics (1)**, and under settings, click on **Agents (2)** after that expand **Log Analytics agent                instructions (3)**, and then click on **Download Windows Agent [64 bit] (4)**. Copy the **Workspace ID (5)** and **Primary key (6)**, then save it to notepad for later use.
 
-     ![](images/analytics2.png)
+     ![](images1/Agents.png)
 
 1. Now, on your web browser, click on three dots **[...] (1)** and go to **Downloads (2)**.
 
@@ -174,7 +174,7 @@ In this task, you will onboard the web app -  IIS server to sentinel by configur
 
       ![](images/analytics11.png)
 
-1. On the **log analytics workspace** page, click on **log-analytics (1)**, then click on **Agents management (2)** under settings and you will see **1 Windows        computer connected (3)**
+1. On the **log analytics workspace** page, click on **log-analytics (1)**, then click on **Agents (2)** under settings and you will see **1 Windows computer connected (3)** 
    >**NOTE**: It will take around 5 minutes, for the log analytics agent to connect with a virtual machine, and wait for it to complete before proceeding with the lab.
 
       ![](images/agents1.png)
@@ -225,13 +225,11 @@ In this task, you will run the queries in Microsoft sentinel to check the health
 
     ![](images/microsoft4.png "news-sentinel")
      
-1. On the  Microsoft Sentinel **Overview** page, click on **USAGE (2)**.
+1. On the  Microsoft Sentinel **Overview** page, click on **OTHERS (2)**.
 
-    ![](images/microsoft5.png "news-sentinel")
+    ![](images1/Others.png "news-sentinel")
     
-1.  Now under the **Logs** page, click on **Run (2)**, Here you will see results of the **union usage** query in query explorer. Here you can see operations around Network, Logical Disk, Memory, and Processor for VM. If you are not able to see the results, then try to adjust the query editor size and you will be able to see the outcome.
-
-     ![](images/microsoft6.png "news-sentinel")
+1.  Now under the **Logs** page, remove the existing code and copy paste this query **union usage**, click on **Run (2)**, Here you will see results of the **union usage** query in query explorer. Here you can see operations around Network, Logical Disk, Memory, and Processor for VM. If you are not able to see the results, then try to adjust the query editor size and you will be able to see the outcome.
         
 ## **Summary**
  
