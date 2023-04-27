@@ -6,7 +6,7 @@
 
 The topology capability of Azure Network Watcher enables you to view all of the resources in a virtual network, the resources associated to resources in a virtual network, and the relationships between the resources. In this task, you'll view resources in a Microsoft Azure virtual network, and the relationships between the resources.
 
-1. Navigate to Azure portal. Using the search bar, search for **Network Watcher (1)** and **select (2)** it from the suggestion
+1. Navigate to Azure portal. Using the search bar, search for **Network Watcher (1)** and **select (2)** it from the suggestions.
 
    ![](images/cafinfa1.jpg)
 
@@ -24,6 +24,82 @@ The topology capability of Azure Network Watcher enables you to view all of the 
 
 ## Task 3: Secure Access via Bastion Host - New 
 
-## Task 4: Prepare the Network Watcher monitoring environment and NSG Flow – New 
+## Task 4: Prepare the Network Watcher monitoring environment and NSG Flow – New
+
+Network Watcher provides several features to monitor and diagnose network performance issues. We will create NSG flow logs that will provide detailed information about the network traffic that passes through your NSG.They capture information such as source and destination IP addresses, source and destination ports, protocol, and action taken (allow or deny) by the NSG. This information can be used for troubleshooting network connectivity issues, monitoring and analyzing network traffic patterns, and detecting potential security threats.
+
+1. Navigate to Azure portal. Using the search bar, search for **Resource group (1)** and **select (2)** it from the suggestions.
+
+   ![](images/cafinfra5.jpg)
+
+1. Select the **JumpVM-rg** from the list.
+
+   ![](images/cafinfra6.jpg)
+
+1. From the list of resources, select the Network Security Group named **JumpVM-<inject key="DeploymentID" enableCopy="false" />-nsg**.
+
+   ![](images/cafinfra7.jpg)
+
+1. In the sidebar, select **NSG flow logs** from the Monitoring menu.
+
+   ![](images/cafinfra8.jpg)
+
+1. Click on the **create** button.
+
+   ![](images/cafinfra9.jpg)
+
+1. In the Create a flow log page, select the **default subscription (1)** in the drop down and click on **Select resource (2)**.
+
+   ![](images/cafinfra10.jpg)
+
+1. In the Select network security group page, select **JumpVM-<inject key="DeploymentID" enableCopy="false" />-nsg** **(1)** and click on **Confirm selection (2)**.
+
+   ![](images/cafinfra11.jpg)
+
+1. For the Instance details, Provide the following details and click on **Next: Configuration> (4)**
+
+   - **Subscription**: select **default subscription (1)** from the drop down.
+   - **Storage account**: select **nsglogs<inject key="DeploymentID" enableCopy="false" />** from the drop down.
+   - **Retention (days)**: **30 (3)**
+
+   ![](images/cafinfra12.jpg)  
+
+1. In the Configuration page, leave everything as default and click on **Review + create (2)**.
+
+   ![](images/cafinfra13.jpg)  
+
+1. In the Create page, click on the **Create** button and wait till the deployment completion.
+
+   ![](images/cafinfra14.jpg)  
+
+1. Navigate to Azure portal. Using the search bar, search for **Resource group (1)** and **select (2)** it from the suggestions.
+
+   ![](images/cafinfra5.jpg)
+
+1. Select the **JumpVM-rg** from the list.
+
+   ![](images/cafinfra6.jpg)
+
+1. From the list of resources, select the Network Security Group named **JumpVM-<inject key="DeploymentID" enableCopy="false" />-nsg**.
+
+   ![](images/cafinfra7.jpg)
+
+1. From the sidebar, select **Diagnostic settings (1)** and click on **+ Add diagnostic setting (2)**.
+
+   ![](images/cafinfra15.jpg)
+
+1. In the Diagnostic settings page, provide the following details and click on **save (6)**.
+
+   - **Diagnostic setting name**: **NSG_Flow_Logs (1)**
+   - **Logs> Category groups**: check the **allLogs (2)** checkbox.
+   - **Destination details**: select the **Archeive to a storage account (3)** checkbox. Make sure the **default subscription (4)** is selected for subscription and **nsglogs<inject key="DeploymentID" enableCopy="false" /> (5)** for storage account.
+
+   ![](images/cafinfra16.jpg)
+
+
+
+
+
+
 
  
