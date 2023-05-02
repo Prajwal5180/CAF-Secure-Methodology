@@ -10,13 +10,13 @@
 
    ![](images/a4.png "search gateway")
    
-1. On the Networks page, you can customize the resource health and alerts view by using filters like **Subscription**, **Resource Group**, and **Type** and you can use the search box to search for resources and their associated resources. For example, a public IP is associated with an application gateway. A search for the public IP's DNS name will return both the public IP and the associated application gateway.
+1. On the **Networks** page, you can customize the resource health and alerts view by using filters like **Subscription**, **Resource Group**, and **Type** and you can use the search box to search for resources and their associated resources. For example, a public IP is associated with an application gateway. A search for the public IP's DNS name will return both the public IP and the associated application gateway.
 
    ![](images/a5.png "search gateway")
 
 1. In this, each tile represents a resource type. The tile displays the number of instances of that resource type deployed across all selected subscriptions. It also displays the health status of the resource.
 
-
+   ![](images/a12.png "search gateway")
 
 1. You can click on any resource to select the resource view, The resource view helps you visualize how a resource is configured. The resource view is currently available for **Azure Application Gateway**, **Azure Virtual Network**, and **Route table**. For example, for Application Gateway, you can access the resource view by selecting the Application Gateway resource name in the metrics grid view. You can do the same thing for Azure Virtual Network, and route table.
 
