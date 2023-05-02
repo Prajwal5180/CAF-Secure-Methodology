@@ -12,7 +12,7 @@ Azure Monitor Network Insights provides a comprehensive and visual representatio
 
    ![](images/a4.png "search gateway")
    
-1. On the **Networks** page, you can customize the resource health and alerts view by using filters like **Subscription**, **Resource Group**, and **Type** and you can use the search box to search for resources and their associated resources. For example, a public IP is associated with an application gateway. A search for the public IP's DNS name will return both the public IP and the associated application gateway.
+1. On the **Network health** tab, you can customize the resource health and alerts view by using filters like **Subscription**, **Resource Group**, and **Type** and you can use the search box to search for resources and their associated resources. For example, a public IP is associated with an application gateway. A search for the public IP's DNS name will return both the public IP and the associated application gateway.
 
    ![](images/a5.png "search gateway")
 
@@ -68,7 +68,9 @@ The topology capability of Azure Network Watcher enables you to view all of the 
 
 ## Task 3: Secure Access via Bastion Host - New
 
-In this task, we are demonstrating how you are able to connect to VMs in an environment without configuring a public IP on the VMs. 
+In this task, we are demonstrating how you are able to connect to VMs in an environment without configuring a public IP on the VMs.
+
+1. 
 
 
 
