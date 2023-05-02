@@ -2,6 +2,39 @@
 
 ## Task 1: Network Health - New 
 
+1. Navigate to Azure portal. Using the search bar, search for **Monitor (1)** and **select (2)** it from the suggestions.
+
+   ![](images/a3.png)
+
+1. From the sidebar, select **Networks** from monitoring.
+
+   ![](images/a4.png "search gateway")
+   
+1. On the Networks page, you can customize the resource health and alerts view by using filters like **Subscription**, **Resource Group**, and **Type** and you can use the search box to search for resources and their associated resources. For example, a public IP is associated with an application gateway. A search for the public IP's DNS name will return both the public IP and the associated application gateway.
+
+   ![](images/a5.png "search gateway")
+
+1. In this, each tile represents a resource type. The tile displays the number of instances of that resource type deployed across all selected subscriptions. It also displays the health status of the resource.
+
+
+
+1. You can click on any resource to select the resource view, the Resource view helps you visualize how a resource is configured. The Resource view is currently available for Azure Application Gateway, Azure Virtual Network, and route table. For example, for Application Gateway, you can access the resource view by selecting the Application Gateway resource name in the metrics grid view. You can do the same thing for Azure Virtual Network, and route table.
+
+   ![](images/a6.png "search gateway")
+
+
+1. 
+
+
+
+
+
+
+
+
+
+
+
 ## Task 2: Network Topology - New 
 
 The topology capability of Azure Network Watcher enables you to view all of the resources in a virtual network, the resources associated to resources in a virtual network, and the relationships between the resources. In this task, you'll view resources in a Microsoft Azure virtual network, and the relationships between the resources.
@@ -22,7 +55,12 @@ The topology capability of Azure Network Watcher enables you to view all of the 
 
    ![](images/cafinfa4.jpg "search gateway")
 
-## Task 3: Secure Access via Bastion Host - New 
+## Task 3: Secure Access via Bastion Host - New
+
+In this task, we are demonstrating how you are able to connect to VMs in an environment without configuring a public IP on the VMs. 
+
+
+
 
 ## Task 4: Prepare the Network Watcher monitoring environment and NSG Flow – New
 
