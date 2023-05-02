@@ -24,6 +24,9 @@ Azure Monitor Network Insights provides a comprehensive and visual representatio
 
    ![](images/a6.png "search gateway")
 
+1. Once you opened the resources, the **Metrics** look like this in the grid view.
+
+   ![](images/a13.png "search gateway")
 
 ## Task 2: Network Topology - New 
 
