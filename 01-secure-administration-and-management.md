@@ -25,27 +25,6 @@ Azure Monitor Network Insights provides a comprehensive and visual representatio
    ![](images/a6.png "search gateway")
 
 
-1. Now, click on **Connectivity** tab which is present in right of Network health. The Connectivity tab provides an easy way to visualize all tests configured via Connection Monitor and Connection Monitor (classic) for the selected set of subscriptions.
-
-   ![](images/a9.png "search gateway")
-
-1. Tests are grouped by **Sources and Destinations** tiles and display the reachability status for each test. Reachable settings provide easy access to configurations for your reachability criteria, based on checks failed **(%)** and **RTT (ms)**. After you set the values, the status for each test updates based on the selection criteria.
-
-   ![](images/a10.png "search gateway")
-
-1. You can select any source or destination tile to open a metric view
-
-   ![](images/a11.png "search gateway")
-
-1. Now, click on **Traffic** tab which is present in right of Connectivity. The Traffic tab provides access to all NSGs configured for NSG flow logs and Traffic Analytics for the selected set of subscriptions, grouped by location.
-
-   ![](images/a7.png "search gateway")
-
-1. If you select any region tile, a grid view appears. The grid provides NSG flow logs and Traffic Analytics in a view that's easy to read and configure.
-
-   ![](images/a8.png "search gateway")
-
-
 ## Task 2: Network Topology - New 
 
 The topology capability of Azure Network Watcher enables you to view all of the resources in a virtual network, the resources associated to resources in a virtual network, and the relationships between the resources. In this task, you'll view resources in a Microsoft Azure virtual network, and the relationships between the resources.
