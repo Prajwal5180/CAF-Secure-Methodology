@@ -2,6 +2,8 @@
 
 ## Task 1: Network Health - New 
 
+Azure Monitor Network Insights provides a comprehensive and visual representation through topologies, of health and metrics for all deployed network resources, without requiring any configuration. It also provides access to network monitoring capabilities like Connection Monitor, flow logging for network security groups (NSGs), and Traffic Analytics.
+
 1. Navigate to Azure portal. Using the search bar, search for **Monitor (1)** and **select (2)** it from the suggestions.
 
    ![](images/a3.png)
