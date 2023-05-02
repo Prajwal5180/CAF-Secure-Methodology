@@ -8,7 +8,7 @@ Azure Monitor Network Insights provides a comprehensive and visual representatio
 
    ![](images/a3.png)
 
-1. From the sidebar, select **Networks** from monitoring.
+1. From the sidebar, select **Networks** from Insights.
 
    ![](images/a4.png "search gateway")
    
@@ -52,8 +52,46 @@ The topology capability of Azure Network Watcher enables you to view all of the 
 
 In this task, we are demonstrating how you are able to connect to VMs in an environment without configuring a public IP on the VMs.
 
-1. 
+1. Navigate to Azure portal. Using the search bar, search for **Virtual networks (1)** and **select (2)** it from the suggestions.
 
+   ![](images/a14.png "search gateway")
+
+1. Select the **vnet** from the list.
+
+   ![](images/a15.png "search gateway")
+
+1. From the sidebar, select **Subnets** from Settings.
+   
+   ![](images/a16.png "search gateway")
+
+1. You will see that **AzureBastionSubnet** is already present in the subnets, If you want to see the subnet configuration then you can click on the AzureBastionSubnet subnet and explore on this.
+
+   ![](images/a17.png "search gateway")
+
+1. Now Using the search bar, search for **Virtual machines (1)** and **select (2)** it from the suggestions.
+
+   ![](images/a18.png "search gateway")
+
+1. Select the **JumpVM-<inject key="DeploymentID" enableCopy="false" />** from the list.
+
+   ![](images/a19.png "search gateway")
+
+1. On the Virtual Machine page, go to the **Overview (1)** tab and click on **Connect (2)** then select **Bastion (3)**.
+ 
+    ![](images1/connect.png)
+ 
+1. On the Bastion page, follow the below-mentioned instructions to connect to the Virtual Machine using Bastion:
+ 
+    - **Username**: Enter **demouser (1)**
+    - **Authentication Type**: Select **Password (2)** from the drop-down
+    - **Password**: Enter **<inject key="JumpVM Admin Password" enableCopy="true"/> (3)**
+    - Click on **Connect (4)**
+ 
+    ![](images1/bastionconnect.png)
+ 
+1. Now, you will be redirected to a new tab where the Bastion VM is opened. If you see the pop-up **See text and images copied to the clipboard**, click on **Allow**.
+ 
+    ![](images1/allowpopup.png)
 
 
 
