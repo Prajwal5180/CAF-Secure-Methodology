@@ -1,30 +1,30 @@
 [
   {
-    "Name": "CAF Secure Methodology",
+    "Name": "Infrastructure security HOL",
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/gettingstarted.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Infra-Security/main/gettingstarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Infra-Security/main/01-secure-administration-and-management.md",
         "Order": 2
       },      
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/01-Azure-security-center.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Infra-Security/main/02-secure-application.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/02-Azure-Web-Application-Firewall-on-Application-Gateway.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Infra-Security/main/03-secure-infrastructure-with-azure-firewall-premium.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/03-Azure-Firewall-Premium.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Infra-Security/main/04-protecting-infrastructure-with-azure-ddos-protection-plans.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/04-Azure-Sentinel.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Infra-Security/main/05-network-management-and-monitoring-revisited-flow-logs-and-traffic-analytics.md",
         "Order": 6
       }
     ]

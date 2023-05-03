@@ -52,7 +52,7 @@ In this task, you will test IDPS for HTTP traffic
 
    ![](images/firewall9.png "search gateway")
 
-2. Type the following command at the command prompt:
+1. Type the following command at the command prompt:
 
    - Replace <your web server address> with Firewall IP.
 
@@ -60,15 +60,15 @@ In this task, you will test IDPS for HTTP traffic
  
     ![](images/firewall7.png "search gateway")
  
- 3. In the custom prompt you will see your Web server response.
+ 1. In the custom prompt you will see your Web server response.
  
     ![](images/firewall8.png "search gateway")
  
- 4. Navigate to your **JumpVM-rg** resource group and select **AzureFirewall**.
+ 1. Navigate to your **JumpVM-rg** resource group and select **AzureFirewall**.
  
      ![](images1/firewall.png)
  
- 5. On the **AzureFirewall** page, select **Logs (1)** under the Monitoring tab and click on **Load to editor (2)** under the **Network rule log data** tab.
+ 1. On the **AzureFirewall** page, select **Logs (1)** under the Monitoring tab and click on **Load to editor (2)** under the **Network rule log data** tab.
  
     ![](images1/loadtoeditor1.png)
  
@@ -89,23 +89,23 @@ In this task, you will test IDPS for HTTP traffic
  
    ![](images1/result1.png)
  
-6. Now navigate back to firewall policy and under **Settings** select **IDPS**.
+1. Now navigate back to firewall policy and under **Settings** select **IDPS**.
  
    ![](images/firewall10.png "search gateway")
  
-7. On the **IDPS** page select the **Signature rules (1)** tab and under **Signature ID**, in the open text box type **2032081 (2)**.
+1. On the **IDPS** page select the **Signature rules (1)** tab and under **Signature ID**, in the open text box type **2032081 (2)**.
  
    ![](images/firewall11.png "search gateway")
  
-8. Select **2032081 (1)** signature id and click on **Edit Rules (2)**.
+1. Select **2032081 (1)** signature id and click on **Edit Rules (2)**.
  
    ![](images/firewall12.png "search gateway")
  
-9. Under edit rules, change **Signature Mode** to **Alert and Deny** and click on **Save**.  Wait for the deployment to complete before proceeding.
+1. Under edit rules, change **Signature Mode** to **Alert and Deny** and click on **Save**.  Wait for the deployment to complete before proceeding.
  
    ![](images/firewall13.png "search gateway")
 
-10. Navigate back to WorkerVM, and run the `curl` command again:
+1. Navigate back to WorkerVM, and run the `curl` command again:
 
     `curl -A "HaxerMen" <your web server address>`
 
@@ -115,7 +115,7 @@ In this task, you will test IDPS for HTTP traffic
  
      ![](images/firewall14.png "search gateway")
 
-11. Go to the Monitor logs in the Azure portal and find the message for the blocked request.
+1. Go to the Monitor logs in the Azure portal and find the message for the blocked request.
  
 ## **Task 3: Web categories testing**
  
