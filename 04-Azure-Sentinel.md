@@ -238,4 +238,3 @@ In this exercise you have covered the following:
    - Onboarded Azure Subscription to Azure sentinel 
    - Onboarded the Web App – IaaS server to sentinel 
    - Explored query logs
-
