@@ -4,27 +4,27 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/gettingstarted.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/gettingstarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/overview.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/overview.md",
         "Order": 2
       },      
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/01-Azure-security-center.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/01-Azure-security-center.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/02-Azure-Web-Application-Firewall-on-Application-Gateway.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/02-Azure-Web-Application-Firewall-on-Application-Gateway.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/03-Azure-Firewall-Premium.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/03-Azure-Firewall-Premium.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/04-Azure-Sentinel.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/CAF-Secure-Methodology/main/04-Azure-Sentinel.md",
         "Order": 6
       }
     ]
