@@ -1,41 +1,60 @@
-# Getting Started with Lab	
+# **Getting Started with Your CAF-Secure-Methodology Workshop**
 
-1. Once you launch the lab, a virtual machine (JumpVM) on the left and a lab guide on the right will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.	
+Welcome to your CAF-Secure-Methodology workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+ 
+## **Accessing Your Lab Environment**
+ 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+ 
+   ![](images/CAF(1).png)
 
-   ![](images/lab-launched.jpg)	
+### **Virtual Machine & Lab Guide**
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## **Exploring Your Lab Resources**
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+ 
+   ![](images/CAF(3).png)
+ 
+## **Utilizing the Split Window Feature**
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+ 
+![Use the Split Window Feature](../Images/spl.png)
+ 
+## **Managing Your Virtual Machine**
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+![Manage Your Virtual Machine](../Images/res.png)
+ 
+## **Let's Get Started with Azure Portal**
+ 
+1. On your virtual machine, click on the Azure Portal icon as shown below:
+ 
+    ![](images/CAF(2).png)
 
-2. To get lab environment details, click on the **Environment Details** tab located next to the *Lab Guide* tab. 	
-
-   ![](images/env-details.jpg)	
-
-## Log in to Azure Portal
-
-1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop. if you get welcome screen of edge browser, click on **Start without your data**, on next screen click on **Continue without your data** and on next screen click on **Confirm and start browsing**.
-
-   ![azure portal.](images/open-azure-portal.jpg)  
-
-2. Login to Azure with the username **<inject key="AzureAdUserEmail" />** (1) and click on **Next** (2).
-
-   ![](images/enter-email.jpg)
-
-3. Enter password **<inject key="AzureAdUserPassword" />** (1) and click on **Sign in** (2).
-
-   ![](images/password-signin.jpg)
-   
-   >**Note:** If there's a popup entitled **More information required**, then click on **Skip for now (14 days until this is required)**.
-   
-   ![](images/skipfornow.png)
-
-   >**Note:** If there's a popup entitled **Stay signed in?** with buttons for **No** and **Yes**, Choose **No**.
-   
-   ![](images/stay-sign-in.jpg)
-     
-   >**Note:** If there's another popup entitled **Welcome to Microsoft Azure** with buttons for **Start Tour** and **Maybe Later** - Choose **Maybe Later**.
-   
-   ![](images/welcome-azure-later.jpg)
-   
-4. **Close** the recommendation page by clicking on the X mark.
-  
-5. Click on the **Next** button present in the bottom-right corner of the lab guide to start with the first exercise of the lab.
-
-   ![](images/next-page-open.jpg)
+ 
+2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+    ![Enter Your Username](../Images/sc900-image-1.png)
+ 
+3. Next, provide your password:
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+   ![Enter Your Password](../Images/sc900-image-2.png)
+ 
+4. If prompted to stay signed in, you can click "No."
+ 
+5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+ 
+6. Click "Next" from the bottom right corner to embark on your Lab journey!
+ 
+     ![Start Your Azure Journey](../Images/sc900-image(3).png)
+ 
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
