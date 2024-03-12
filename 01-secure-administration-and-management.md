@@ -1,4 +1,4 @@
-# Exercise 2- Secure administration and management
+# Exercise 1- Secure administration and management
 
 Azure Monitor Network Insights provides a comprehensive and visual representation through topologies of the health and metrics of all deployed network resources without requiring any configuration. 
 
@@ -58,14 +58,12 @@ In this task, you'll explore Azure monitor and examine the resource health of va
 1. From the sidebar, select **Topology** from Monitoring.
 
    ![](images/cafinfa2.jpg "search gateway")
-
-1. On the topology page click on the bar to go to the new Topology experience:
-
-   ![](images/scafinfra36.jpg "search gateway")
    
 1. Now, you'll be able to **visualize (1)** the topology. You can explore the different connections to understand how different resources such as virtual machines, subnets, virtual network gateways, and other network components are interconnected and how they communicate with each other. You can also download the topology by clicking on **Download topology (2)**.
 
    ![](images/scafinfra37.jpg "search gateway")
+
+   >**Note:** You can click the **Plus icon** next to the location to view the resource in the visual format.
 
 ## **Task 3: Secure Access via Bastion Host**
 
@@ -95,23 +93,31 @@ In this task, you'll learn how to access an Azure virtual machine using the Azur
 
    ![](images/a19.png "search gateway")
 
-1. On the Virtual Machine page, under **Settings**, click on **Connect (1)** then click on **Go to Bastion (2)**.
+1. On the Virtual Machine page, under **Connect**, click on **Connect (1)** then click on **Go to Bastion (2)**.
  
-   ![](images/a170.png)
+   ![](images/connect.png)
  
 1. On the Bastion page, follow the below-mentioned instructions to connect to the Virtual Machine using Bastion:
+
+     
  
-    - **Username**: Enter **the jumpVM Admin Username from the email you received when registering (1)**
-    - **Authentication Type**: Select **Password (2)** from the drop-down
-    - **Password**: Enter **Enter the jumpVM Admin Password from the email you received when registering (3)**
+    - **Authentication Type**: Ensure **VM Password (1)** is chosen from the drop-down
+    - **Username**: Enter **<inject key="JumpVM Admin Username" enableCopy="false" /> (1)**
+    - **Password**: Enter **<inject key="JumpVM Admin Password" enableCopy="false" />(3)**
     - Click on **Connect (4)**
  
-      ![](images1/bastionconnect.png)
- 
+      ![](images1/infra1.png)
+
+       >**Note:** If the popup blocker prevents the new window, select the allow popup blocker and click on Done and Connect again.
+  
+        ![](images1/infra2.png)
+  
+   
 1. Now, you will be redirected to a new tab where the Bastion VM is opened. If you see the pop-up **See text and images copied to the clipboard**, click on **Allow**.
  
     ![](images1/allowpopup.png)
 
+   
 ## **Task 4: Prepare the Network Watcher monitoring environment and NSG Flow**
 
 NSG Diagnostic Logs provide detailed information about the health and performance of a Network Security Group. These logs include data related to the configuration changes, rules evaluation, and the overall state of the NSG. Diagnostic Logs can help identify issues with NSG rules, detect unauthorized access attempts, and monitor the NSG's behavior.
@@ -184,10 +190,15 @@ In this task, You will create NSG flow logs that will provide detailed informati
 
    - **Diagnostic setting name**: **NSG_Flow_Logs (1)**
    - **Logs> Category groups**: check the **allLogs (2)** checkbox.
-   - **Destination details**: Select **Send to Log Analytics workspace (3)**. The existing log analytics workspace should be selected. Also select the **Archive to a storage account (4)** checkbox. Make sure the default subscription is selected for subscription and nsglogs<inject key="DeploymentID" enableCopy="false" /> for storage account.
+   - **Destination details**: Select **Send to Log Analytics workspace (3)**. The existing log analytics workspace should be selected. Also select the **Archive to a storage account (4)** checkbox,and Click on **Save(5)**. Make sure the default subscription is selected for subscription and nsglogs<inject key="DeploymentID" enableCopy="false" /> for storage account.
 
       ![](images/a151.png)
-      
+   
+      > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
+      > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Summary
  
@@ -197,5 +208,3 @@ In this exercise you have covered the following:
    - Explored on Network topology
    - Secured Access via Bastion Host
    - Configured the Network Watcher monitoring environment and NSG Flow
-
- Click on the **Next** button present in the bottom-right corner of the lab guide to start with the next exercise of the lab.
