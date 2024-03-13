@@ -23,11 +23,11 @@ In this task, you'll access the virtual machine by configuring an inbound port r
 
    ![](images/marinfra1.png)
  
-1. From the sidebar, select **Networking** from Settings.
+1. From the sidebar, select **Network settings** under **Networking** option.
 
    ![](images/marinfra2.png)
 
-1. On the Networking page, Click on **default-allow-rdp (1)** inbound port rule to edit the configuration, select **Deny (2)** from Action and click on **Save (3)**.
+1. On the Network settings page, Click on **default-allow-rdp (1)** inbound port rule to edit the configuration, select **Deny (2)** from Action and click on **Save (3)**.
 
    ![](images/marinfra3.png)
    
@@ -318,12 +318,6 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 1. From the **Most frequent L7 protocols** page, you can explore more about the ports and their ranging.
 
     ![l7](/images1/l7proto.png)
-
-    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## **Summary**
  
