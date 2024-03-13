@@ -29,7 +29,7 @@ In this task, you'll access the virtual machine by configuring an inbound port r
 
 1. On the Network settings page, Click on **default-allow-rdp (1)** inbound port rule to edit the configuration, select **Deny (2)** from Action and click on **Save (3)**.
 
-   ![](images/marinfra3.png)
+   ![](images/lab5-2.png)
    
 1. On the JumpBox VM, in the search bar, **Search** for **RDP** and **select** the **Remote Desktop Connection** app.
    
@@ -46,7 +46,7 @@ In this task, you'll access the virtual machine by configuring an inbound port r
    
 1. Navigate back to the **labvm-<inject key="DeploymentID" enableCopy="false" />**, Open Networking tab and click on **default-allow-rdp (1)** inbound port rule to edit the configuration, select **Allow (2)** from Action and click on **Save (3)**.
 
-   ![](images/marinfra4.png)
+   ![](images/lab5-3.png)
 
 1. Navigate back on **Remote Desktop Connection**, click on **Connect** and you will see that you are able to connect to the VM.
 
