@@ -123,7 +123,7 @@ In this task, you will enable diagnostic settings in Azure Firewall to collect f
 
    ![](images/scafinfra21.jpg "search gateway")
 
-1. select **Enable Azure Firewall Structured Logs (1)** and click on **Register (2)**.
+1. Select **Enable Azure Firewall Structured Logs (1)** and click on **Register (2)**.
 
    ![](images/scafinfra22.jpg "search gateway")
 
@@ -242,17 +242,17 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 
 1. Click on **Create** in the top navigation pane.
 
-1. In the **Basics** tab, click on **Select Resource** and choose **Network Security Group** from the dropdown.
+1. In the **Basics** tab, click on **Select resource** and choose **Network security group** from the dropdown. Choose **JumpVM-<inject key="DeploymentID" enableCopy="false" />-nsg** and select **Confirm selection**. Scroll down and provide **Retention (days)** as **O**
 
    ![rule](/images1/marinfra9.png)
 
 1. Leave eveything as default and click **Next: Analytics**.
 
-1. In the **Analytics** tab, check **Enable Traffic Analysis** and change the **Traffic Analytics Processing Time** to **Every 15 mins**
+1. In the **Analytics** tab, check **Enable Traffic Analysis** and change the **Traffic Analytics processing interval** to **Every 10 mins**
 
    ![rule](/images1/marinfra10.png)
 
-1. Click **Next** and click on **Review + Create** and subsequently click on **Create**
+1. Click **Next:Tags>** and click on **Review + Create** and subsequently click on **Create**
 
 1. Navigate back to the Network Watcher and select **Traffic Analytics**, under **Logs** from the options on the left side of the Network Watcher blade.
 
