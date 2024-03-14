@@ -262,6 +262,10 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 
    ![time interval](/images1/timeinterval.png)
 
+   > **Note: If you observe the Time interval is greyed out, click on Meanwhile, click here to see just resource data and perform the above step**.
+
+      ![](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Solutions/raw/main/media/timeinterval.png)
+
 1. Now, you can observe the total number of network traffic flows from **Traffic Visualization**.
 
     ![traffic visualization](/images1/traffic%20visualisation.png)
