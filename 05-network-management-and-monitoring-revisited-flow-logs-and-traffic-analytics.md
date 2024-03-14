@@ -270,7 +270,7 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 
     ![traffic visualization](/images/lab5-13.png)
 
-    > **Note: The dashboard may take up to 30 minutes to appear when deployed for the first time. This is because Traffic Analytics must first aggregate enough data for it to derive meaningful insights. If it takes more time, you can perform the next task and come back later and check on this**.
+    > **Note: The dashboard may take up to 30-60 minutes to appear when deployed for the first time. This is because Traffic Analytics must first aggregate enough data for it to derive meaningful insights. If it takes more time, you can perform the next task and come back later and check on this**.
            
      
 1. Under **Traffic Analytics** Scroll down to **Your Environment** to view the total number of **Deployed Azure regions (1)**, **TA Enabled NSGs (2)**, **Virtual networks (3)**, and **Virtual subnetworks (4)**.
@@ -299,7 +299,7 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
      
 1. To view the analytics of traffic flows across the host, select **IP (1)**, then select **See all (2)** from **Traffic Distribution**.
 
-    ![td](/images/lab5-19.png)
+    ![tr](/images/lab5-20.png)
     
 1. You can observe the graph of the **Time trending chart for the top 5 talking IPs** from the **Traffic distribution across the top IPs** page.
 
