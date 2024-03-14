@@ -1,4 +1,4 @@
-# Exercise 5- Network Management and Monitoring Revisited: Flow Logs and Traffic Analytics
+![image](https://github.com/Prajwal5180/CAF-Secure-Methodology/assets/113567986/9b94ea14-da95-40bc-89bf-3572d5416921)# Exercise 5- Network Management and Monitoring Revisited: Flow Logs and Traffic Analytics
 
 Network management and monitoring play a crucial role in maintaining a secure and efficient network infrastructure. In addition to traditional monitoring methods, flow logs and traffic analytics provide valuable insights into network traffic patterns and behavior.
 
@@ -268,26 +268,26 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 
 1. Now, you can observe the total number of network traffic flows from **Traffic Visualization**.
 
-    ![traffic visualization](/images1/traffic%20visualisation.png)
+    ![traffic visualization](/images/lab5-13.png)
 
     > **Note: The dashboard may take up to 30 minutes to appear when deployed for the first time. This is because Traffic Analytics must first aggregate enough data for it to derive meaningful insights. If it takes more time, you can perform the next task and come back later and check on this**.
            
      
 1. Under **Traffic Analytics** Scroll down to **Your Environment** to view the total number of **Deployed Azure regions (1)**, **TA Enabled NSGs (2)**, **Virtual networks (3)**, and **Virtual subnetworks (4)**.
 
-    ![env](/images1/environment1.png)
+    ![env](/images/lab5-14.png)
       
 1. To visualize the traffic distribution by geography, click on **View map**. The geo-map shows the traffic distribution to a data center from countries/regions and continents communicating with it.
 
-    ![map](/images1/viewmap.png)
+    ![map](/images/lab5-15.png)
      
 1. In the **Traffic Analytics Geo Map View** page, click on the **Green** icon which indicates the Azure region, and observe the resources deployed under the region, to explore more select **More details**.
 
-    ![md](/images1/moredetails.png)
+    ![md](/images/lab5-16.png)
       
 1. Under the **More Insights** blade, scroll down and explore traffic distribution for deployments of the region.
 
-    ![comm](/images1/moreinsights.png)
+    ![comm](/images/lab5-17.png)
      
 1. To close the **Traffic Analytics Geo Map View**, click on the cross at the top right corner.
 
@@ -297,11 +297,11 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
       
 1. Under the Traffic Analytics page, scroll down to **Traffic Distribution** to view the analytics of traffic flows across the host, subnet, VNet, and VMSS.
 
-    ![tr](/images1/totaltraffic.png)
+    ![tr](/images/lab5-18.png)
      
 1. To view the analytics of traffic flows across the host, select **IP (1)**, then select **See all (2)** from **Traffic Distribution**.
 
-    ![td](/images1/ipsee.png)
+    ![td](/images/lab5-19.png)
     
 1. You can observe the graph of the **Time trending chart for the top 5 talking IPs** from the **Traffic distribution across the top IPs** page.
 
