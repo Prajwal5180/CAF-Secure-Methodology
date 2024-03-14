@@ -292,9 +292,7 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 1. To close the **Traffic Analytics Geo Map View**, click on the cross at the top right corner.
 
      ![close](https://github.com/CloudLabsAI-Azure/AIW-Azure-Network-Services/blob/main/media/close.png?raw=true)
-      
-1. Close the **Ports receiving traffic from the Internet** page by clicking the **Cross (X) icon** from the top right corner.
-      
+            
 1. Under the Traffic Analytics page, scroll down to **Traffic Distribution** to view the analytics of traffic flows across the host, subnet, VNet, and VMSS.
 
     ![tr](/images/lab5-18.png)
