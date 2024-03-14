@@ -285,7 +285,7 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 
     ![md](/images1/moredetails.png)
       
-1. Under the **More Insights** blade, scroll down and explore traffic distribution for deployments of the East US region.
+1. Under the **More Insights** blade, scroll down and explore traffic distribution for deployments of the region.
 
     ![comm](/images1/moreinsights.png)
      
@@ -310,8 +310,6 @@ In this task, you will enable the Traffic Analytics in the NSG flow logs and rev
 1. Under **Details of top 5 talking IPs**, select VM IP to explore more about traffic distribution.
 
      ![see more](/images1/top5.png)
-     
-1. Close the **Traffic distribution across top IPs** by clicking the **cross (X) icon** at the top-left corner of the page.
     
 1. In the same way, you can explore more about **Malicious traffic**, and **Blocked traffic** 
 
